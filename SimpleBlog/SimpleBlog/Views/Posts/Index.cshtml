@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Index Page";
+}
+<div class="first"> 
+<h1>INDEX</h1>
+
+    @section Scripts{
+        <script>
+            alert("Hello World");
+        </script>
+    }
+       
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  
+        <a href="/login">Login</a>
+      @{
+          if (true)//1.kulalnım
+          {
+            @:True is true
+          }
+          if (true)//2.kullanım
+          {
+            <p>True is true</p>
+          }
+          if (true)//3.kullanım
+          {
+            <text>True is true <br /></text>
+          }
+        }
+        
+       1.ci link kullanımı 
+        @Html.RouteLink("click here","login") to go to loginpage<br />
+         2.ci link kullanımı 
+        <a href="@Url.RouteUrl("login")">Click here go to login</a>
+
+        --> 
