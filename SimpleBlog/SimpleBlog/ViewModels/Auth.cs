@@ -5,10 +5,10 @@ using System.Web;
 
 namespace SimpleBlog.ViewModels
 {
-    public class Auth
+    public class AuthLogin
     {
 
-        public int UserName { get; set; }
-        public int Password { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }
